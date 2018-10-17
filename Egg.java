@@ -12,4 +12,4 @@ public class Egg {
 		System.out.println("\\         /");
 		System.out.println(" \\_______/");
 	}
-}
+} 
