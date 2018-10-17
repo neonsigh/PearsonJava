@@ -1,18 +1,34 @@
 public class Egg2 {
 
 	public static void main(String[] args) {
-		writeEgg();
+		writeEggTop();
+		writeEggBottom();
 		System.out.println();
-		System.out.println("-\"-'-\"-'-\"-");
+		writeEggMid();
 		System.out.println();
-		writeEgg();
+		writeEggTop();
+		writeEggBottom();
+		System.out.println();
+		writeEggMid();
+		writeEggBottom();
+		System.out.println();
+		writeEggTop();
+		writeEggMid();
+		writeEggBottom();
 	}
 	
-	public static void writeEgg() {
+	public static void writeEggTop() {
 		System.out.println("  _______");
 		System.out.println(" /       \\");
 		System.out.println("/         \\");
+	}	
+	public static void writeEggBottom() {
 		System.out.println("\\         /");
 		System.out.println(" \\_______/");
 	}
-} 
+	public static void writeEggMid() {
+		System.out.println("-\"-'-\"-'-\"-");
+	}
+
+
+}
